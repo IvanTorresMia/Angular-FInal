@@ -1,0 +1,17 @@
+use cli make new app
+
+json data base file
+
+run json server to watch the data base
+
+read items from the db 
+
+list compoents (coffee)
+
+service 
+
+coffee details
+
+detail component
+
+
