@@ -2,18 +2,18 @@
     "Tasks": [
       {
           "id": 1,
-          "Title": "Do Homework",
-          "Body": "Do math homework and science homework"
+          "title": "Do Homework",
+          "body": "Do math homework and science homework"
       },
       {
         "id": 2,
-        "Title": "Wash Dished",
-        "Body": "Mom will kill you if you don't wash the dishes"
+        "title": "Wash Dished",
+        "body": "Mom will kill you if you don't wash the dishes"
     },
     {
         "id": 3,
-        "Title": "Code some stuff",
-        "Body": "Make an app and get rich"
+        "title": "Code some stuff",
+        "body": "Make an app and get rich"
     }
     ]
 }

@@ -1,1 +1,9 @@
-<p>task works!</p>
+<ul>
+    <!-- looping through the data in title -->
+    <li *ngFor="let t of task">
+        <!-- we are setting each anchor tag to a link with the router, to the id of the task -->
+        <a routerLink = "/details/{{t.id}}">
+            {{ t.title }}
+        </a>
+       </li>
+</ul>
