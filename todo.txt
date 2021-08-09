@@ -15,3 +15,25 @@ coffee details
 detail component
 
 
+Components that I would need 
+
+One to Create (Form)
+
+One to Update (Form)
+
+One to view 
+
+One 
+
+Services 
+
+Delete 
+
+Create 
+
+View all 
+
+View One
+
+
+

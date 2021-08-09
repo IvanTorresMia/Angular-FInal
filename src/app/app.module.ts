@@ -8,12 +8,16 @@ import { TaskComponent } from './components/task/task.component';
 import { HttpClientModule } from '@angular/common/http';
 
 import { TaskDetailsComponent } from './components/task-details/task-details.component';
+import { CreateTaskComponent } from './components/create-task/create-task.component';
+import { UpdateTaskComponent } from './components/update-task/update-task.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TaskComponent,
-    TaskDetailsComponent
+    TaskDetailsComponent,
+    CreateTaskComponent,
+    UpdateTaskComponent
   ],
   imports: [
     BrowserModule,
