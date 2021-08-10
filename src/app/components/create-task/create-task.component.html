@@ -1,1 +1,11 @@
-<p>create-task works!</p>
+
+
+
+<form (ngSubmit)="createTask()">
+    <h2>Let's create a new Task</h2>
+    <input type="text" class="title" name="title" placeholder="Task" [(ngModel)]="newTask.title">
+
+    <input type="text" class="body" name="body" placeholder="Description" [(ngModel)]="newTask.body">
+    <button type="submit">Add Task</button>
+</form>
+

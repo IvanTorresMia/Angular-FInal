@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { TaskDataService } from 'src/app/task-data.service';
 import { Task } from '../../../taskModel';
+
 
 @Component({
   selector: 'app-task-details',
@@ -10,10 +11,11 @@ import { Task } from '../../../taskModel';
 })
 export class TaskDetailsComponent implements OnInit {
 
-  myTask: Task;
-  id: number;
 
-  constructor(private taskData: TaskDataService, private route: ActivatedRoute) { }
+  id: number;
+  myTask: Task = new Task();
+
+  constructor(private taskData: TaskDataService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit(): void {
     // this grabs our parameters which come as an array
@@ -30,6 +32,13 @@ export class TaskDetailsComponent implements OnInit {
 
   
 
+  }
+
+
+  deleteTask = (id:number) => {
+    this.taskData.deleteTask(id).subscribe(response => {
+     this.router.navigate(['task'])
+    })
   }
 
 }

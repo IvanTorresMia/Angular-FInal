@@ -1,2 +1,14 @@
-<h1>Title: {{ myTask.title }}</h1>
-<p>{{ myTask.body }}</p>
+
+<div class="task-detail-container">
+    <h1>{{ myTask.title }}</h1>
+    <p>{{ myTask.body }}</p>
+    <span>Description</span>
+    <a routerLink = "/update/{{myTask.id}}">
+        Update Task
+    </a>
+    <a (click) = "deleteTask(myTask.id)">
+        Delete
+    </a>
+</div>
+
+

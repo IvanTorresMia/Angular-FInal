@@ -1,1 +1,10 @@
-<p>update-task works!</p>
+
+<h2>Let's create a new Task</h2>
+
+<form (ngSubmit)="updateTask()">
+
+    <input type="text" class="title" name="title" placeholder="{{currentTask.title}}" [(ngModel)]="updatedTask.title">
+
+    <input type="text" class="body" name="body" placeholder="{{currentTask.body}}" [(ngModel)]="updatedTask.body">
+    <button type="submit">Update</button>
+</form>

@@ -1,0 +1,62 @@
+.search-container {
+  background-color: #9a9d9e;
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  box-shadow: 10px 10px 10px 10px #cccccc;
+}
+
+.search-container input {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* .task-section {
+    height: 400px;
+} */
+
+.header {
+  text-align: center;
+}
+
+.task-item {
+    margin: 10px;
+    /* height: 100px; */
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons a {
+    background-color: #079DDA;
+    color: #212629;
+    border: 1px solid #079DDA;
+    /* text-align: center; */
+    padding: 3px;
+    padding-left: 5px;
+    text-decoration: none;
+    margin: 3px;
+    width: 95px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.buttons a:nth-child(3) {
+    background-color: #CB2C19;
+    border: 1px solid #CB2C19;
+}
+
+.buttons a:nth-child(3):hover {
+    background-color: white;
+    border: 1px solid #CB2C19;
+}
+
+.buttons a:hover {
+background-color: white;
+border: 1px solid #079DDA;
+}

@@ -1,0 +1,9 @@
+/* ------------------------ Nav Bar --------------------- */
+nav {
+    color: white;
+    height: 100px;
+}
+
+.ml-auto {
+    margin-left: auto !important;
+}

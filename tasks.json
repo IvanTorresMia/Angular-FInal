@@ -1,19 +1,24 @@
 {
-    "Tasks": [
-      {
-          "id": 1,
-          "title": "Do Homework",
-          "body": "Do math homework and science homework"
-      },
-      {
-        "id": 2,
-        "title": "Wash Dished",
-        "body": "Mom will kill you if you don't wash the dishes"
+  "Tasks": [
+    {
+      "title": "let's do homework",
+      "body": "do it",
+      "id": 1
     },
     {
-        "id": 3,
-        "title": "Code some stuff",
-        "body": "Make an app and get rich"
+      "title": "work",
+      "body": "Please Work",
+      "id": 2
+    },
+    {
+      "title": "let's do Job stuff",
+      "body": "job stuff",
+      "id": 3
+    },
+    {
+      "title": "Make Music",
+      "body": "lets do this",
+      "id": 4
     }
-    ]
+  ]
 }
