@@ -20,7 +20,6 @@ export class CreateTaskComponent implements OnInit {
 
     console.log(this.newTask)
 
-
   }
 
   createTask = () => {

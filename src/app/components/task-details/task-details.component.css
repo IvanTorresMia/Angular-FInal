@@ -31,3 +31,12 @@
 .task-detail-container h1 { 
     border-bottom: 2px solid black;
 }
+
+.task-detail-container span {
+    opacity: 50%;
+}
+
+.task-detail-container p { 
+    font-size: 20px;
+    margin-bottom: 40px;
+}

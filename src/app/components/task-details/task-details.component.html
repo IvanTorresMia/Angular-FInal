@@ -1,8 +1,10 @@
 
 <div class="task-detail-container">
+    <span>Title</span>
     <h1>{{ myTask.title }}</h1>
-    <p>{{ myTask.body }}</p>
     <span>Description</span>
+    <p>{{ myTask.body }}</p>
+ 
     <a routerLink = "/update/{{myTask.id}}">
         Update Task
     </a>

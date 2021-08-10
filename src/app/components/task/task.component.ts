@@ -14,7 +14,7 @@ task: Task[] = [];
 title: string;
 taskArray: any = [];
 renderedTasks: any = [];
-
+newTask: Task = new Task();
 
 
 // creating an instance of TaskDataService, and using it's methods
@@ -39,7 +39,7 @@ renderedTasks: any = [];
     })
   }
 
-
+// Probably wont use this
   handleChange = (event) => {
     this.title = event;
 
@@ -71,6 +71,19 @@ renderedTasks: any = [];
 
     console.log(this.renderedTasks);
   };
+
+  createTask = () => {
+    // event.preventDefault();
+ 
+    this.taskData.createTask(this.newTask).subscribe(response => {
+      console.log(response)
+      this.ngOnInit();
+      // this.router.navigate(['task'])
+    })
+  }
+
+
+
 
 
 
