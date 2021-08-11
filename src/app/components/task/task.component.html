@@ -27,7 +27,7 @@
     <div *ngFor="let t of task" class="task-item">
 
       <!-- we are setting each anchor tag to a link with the router, to the id of the task -->
-      <h3>View {{ t.title }}</h3>
+      <h3>{{ t.title }}</h3>
       <div class="buttons">
         <a routerLink="/details/{{ t.id }}"> View Task </a>
         <a routerLink="/update/{{ t.id }}"> Update Task </a>
